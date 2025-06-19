@@ -1,89 +1,98 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Proyecto</title>
-    <link rel="stylesheet" href="./Css/style.css">
-</head>
-<body>
-    <h1>PROYECTO</h1>
-    <div id="container">
-        <header id="header">
-            <div id="logo">
-                <img src="./assets/img/granero.jpg" alt="granero logo">
-            </div>
+    <!DOCTYPE html>
+    <html lang="es">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Proyecto</title>
+            <link rel="stylesheet" href="./Css/style.css">
+        </head>
+        <body>
+            <div id="container">
+                <header id="header">
+                    <div id="logo">
+                        <img src="./assets/img/granero.png" alt="granero logo">
+                    </div>
+                    
+                </header>
+            <!-- menu -->
+                <nav id="menu">
+                    <ul>
+                        <li>
+                            <a href="#">inicio</a>
+                        </li>
+                        <li>
+                            <a href="#">categoria1</a>
+                        </li>
+                        <li>
+                            <a href="#">categoria2</a>
+                        </li>
+                        <li>
+                            <a href="#">categoria3</a>
+                        </li>
+                        <li>
+                            <a href="#">categoria4</a>
+                        </li>
+                    </ul>
+                </nav>
+            <aside id="lateral">
+            <div id="content">
+                <!-- barra lateral -->
+
+                    <div id="login" class="block_aside">
+                        
+                        <h3>entrar a la web</h3>
+                        <form action="#" method="post">
+                            <label for="email" >email</label>
+                            <input type="email" name="correo">
+                            <label for="pasword">contraseña</label>
+                            <input type="password" name="password">
+                            <input type="submit" value="enviar">
+                        </form>
+
+                        <ul>
+                            <li>
+                                <a href="#">mis pedidos</a>
+                                <a href="#">gestionar pedidos</a>
+                                <a href="#">gestionar productors</a>
+                            </li>
+                        </ul>
+                        </div>
+                    </aside>
+                    
+        <!-- contenido -->
+        <div id="central">
+                <h1 >productos</h1>
             
-        </header>
-    <!-- menu -->
-        <nav id="menu">
-            <H1>MENU</H1>
-            <ul>
-                <li>
-                    <a href="#">inicio</a>
-                </li>
-                <li>
-                    <a href="#">categoria1</a>
-                </li>
-                <li>
-                    <a href="#">categoria2</a>
-                </li>
-                <li>
-                    <a href="#">categoria3</a>
-                </li>
-                <li>
-                    <a href="#">categoria4</a>
-                </li>
-            </ul>
-        </nav>
-    
-    <div id="content">
-        <!-- barra lateral -->
+                <div id="product">
+                <img src="./assets/img/granero.png" alt="" width="100px" height="100px">
+                <h2>arroz</h2>
+                <p>1000 pesos</p>
+                <a href="#" class="button">Comprar</a>
+                </div>
 
-          <aside id="lateral">
-            <H1>BARRA LATERAL</H1>
-            <div id="login" class="block_aside">
-                <h1>entrar a la web</h1>
-                <FORM action="#" method="post">
-                    <label for="email" >email</label>
-                    <input type="mail" name="correo">
-                    <label for="pasword">contraseña</label>
-                    <input type="password" name="password">
-                    <input type="submit" value="enviar">
-                </FORM>
+                <div id="product">
+                <img src="./assets/img/granero.png" alt="" width="100px" height="100px">
+                <h2>arroz</h2>
+                <p>1000 pesos</p>
+                <a href="#" class="button">Comprar</a>
+                </div>
 
-            </div>
-<!-- contenido -->
- <div id="central">
-<h1 >productos</h1>
-<div class="product">
-    <img src="./assets/img/granero.jpg" alt="" width="100px" height="100px">
-    <h2>arroz</h2>
-    <p>1000 pesos</p>
-    
+                <div id="product">
+                <img src="./assets/img/granero.png" alt="" width="100px" height="100px">
+                <h2>arroz</h2>
+                <p>1000 pesos</p>
+                <a href="#" class="button">Comprar</a>
+                </div>
+
+
+        </div>
+        
+                            <!-- footer -->
+                    <footer id="footer">
+                        <p>Desarollado por Omar Web &copy; 2025</p>
+
+                    </footer>
+
 </div>
-<div class="product">
-    <img src="./assets/img/granero.jpg" alt="" width="100px" height="100px">
-    <h2>arroz</h2>
-    <p>1000 pesos</p>
-    
-</div>
-<div class="product">
-    <img src="./assets/img/granero.jpg" alt="" width="100px" height="100px">
-    <h2>arroz</h2>
-    <p>1000 pesos</p>
-    
-</div>
-
- </div>
-
-          </aside>
-          <!-- footer -->
-<footer id="footer">
-    <p>Desarollado por Omar Web &copy; 2025</p>
-
-</footer>
-
-    </div>
-</body>
+            </body>
 </html>
